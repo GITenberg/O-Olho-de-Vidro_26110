@@ -1,188 +1,210 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
 >
   <pgterms:ebook rdf:about="ebooks/26110">
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</pgterms:downloads>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N586d773549a7475a93fb9f2cca681531">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Abreu, Brás Luís de, 1692-1756 -- Fiction</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26110.kindle.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T01:20:22.145618</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26110.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144959</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N13c33e2d8b3f454ab662c76e7a7a6601">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="N05616f62322140a4a1b4537a3ad0b1a6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">219780</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:29:56.026314</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-22</dcterms:issued>
+    <dcterms:title>O Olho de Vidro</dcterms:title>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/26110/26110-8.txt">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/26110/26110-h/26110-h.htm">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nded3c8a6153b4b5e960cdb9e08c5b980">
+          <rdf:Description rdf:nodeID="Nee4a2678733b4c24be2ae333f579f2fd">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-22T16:47:32</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">333342</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">301042</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-22T16:47:34</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26110.txt.utf-8">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8a09b62ea0fe46fa85dc2b15be7e6690">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">305398</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:29:55.267323</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N9894d083ff0947f593c6f5d4cf1799e7">
+        <rdf:value>PT Romance</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26110.rdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:20:15.361176</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12291</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0da73317c58a4ebeb48820c47a699588">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="N88b6f5e8ff554d579c137ce894c20422">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      <rdf:Description rdf:nodeID="N098519c1a60d470e96c157cc72f7e623">
         <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
       </rdf:Description>
     </dcterms:type>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/6699">
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Camilo_Castelo_Branco"/>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1825</pgterms:birthdate>
-        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Camilo_Castelo_Branco"/>
-        <pgterms:name>Castelo Branco, Camilo</pgterms:name>
-        <pgterms:alias>Branco, Camilo Castelo</pgterms:alias>
-        <pgterms:alias>Corrêa Botelho, Camillo Ferreira Botelho Castello Branco, visconde de</pgterms:alias>
-        <pgterms:alias>Correa Botelho, Camillo Ferreira Botelho Castello Branco, visconde de</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1890</pgterms:deathdate>
-        <pgterms:alias>Branco, Camilo Ferreira Botelho Castelo</pgterms:alias>
-        <pgterms:alias>Correia Botelho, Camillo Castello Branco, visconde de</pgterms:alias>
-        <pgterms:alias>Botelho Castelo Branco, Camilo Ferreira</pgterms:alias>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ne094fdb32ffe440a93ac01a6ae221853">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-        <rdf:value>PQ</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/26110/26110-8.zip">
-        <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-22T16:47:34</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120301</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb60752ebded8408f9d17c269231104bf">
+          <rdf:Description rdf:nodeID="N34f4a71bc76c4f789a0e3bd568be0632">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120301</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc3d37c8804af45ccbf0d694ed7498b54">
+          <rdf:Description rdf:nodeID="N33cf0f72523b42b5b26cf22265ddbff1">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26110.qioo">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182207</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T09:35:48.814577</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfb77316220734c69ae7f4f6ace34c7b8">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/6699">
+        <pgterms:alias>Correia Botelho, Camillo Castello Branco, visconde de</pgterms:alias>
+        <pgterms:alias>Branco, Camilo Castelo</pgterms:alias>
+        <pgterms:alias>Corrêa Botelho, Camillo Ferreira Botelho Castello Branco, visconde de</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://pt.wikipedia.org/wiki/Camilo_Castelo_Branco"/>
+        <pgterms:alias>Correa Botelho, Camillo Ferreira Botelho Castello Branco, visconde de</pgterms:alias>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1825</pgterms:birthdate>
+        <pgterms:alias>Branco, Camilo Ferreira Botelho Castelo</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1890</pgterms:deathdate>
+        <pgterms:alias>Botelho Castelo Branco, Camilo Ferreira</pgterms:alias>
+        <pgterms:name>Castelo Branco, Camilo</pgterms:name>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Camilo_Castelo_Branco"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</pgterms:downloads>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/26110/26110-h.zip">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-22T16:47:34</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf7e6d5fc3a7b40f78f0bcd6bd522a4fc">
+          <rdf:Description rdf:nodeID="N4a55ff88dade4017be3e2190ac28df13">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd27e4a059d7445adb66fa10f0789dc4e">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126469</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-22T16:47:34</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26110.epub.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144959</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N877fef5e9b5b4b36a98bac2e793530fb">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="N29d6de183f924107acdd82b73387ae69">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:29:55.730318</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26110.kindle.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N470aa542b7164a17842716d19ae09ae4">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:30:01.505233</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">589551</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26110.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">589555</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5064312578a54226b30d8bdbf0145903">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:29:59.818264</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/26110/26110-8.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na8cf6fec47a647409830ea7db4d2b9fb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">301042</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-22T16:47:32</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N45a73b2d711f4265839f6319f98f88b8">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Abreu, Brás Luís de, 1692-1756 -- Fiction</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N3214176b607c4020a9c2dc0b5a475434">
+      <rdf:Description rdf:nodeID="Nde448ac4e1cc45a5b0d6cb51a7e2a2e1">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">pt</rdf:value>
       </rdf:Description>
     </dcterms:language>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/26110/26110-h/26110-h.htm">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc764506b5ec949929f04cf7a0227e9bf">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-22T16:47:34</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">333342</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>O Olho de Vidro</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26110.epub.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">151843</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T01:20:20.533222</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N09afd330349746809261fcb789a486af">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26110.plucker">
-        <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">184734</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T09:35:51.925445</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1f86a35ee112421ba33cb82bf49f80a8">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26110.txt.utf-8">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">305394</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T01:20:19.016740</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/26110"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfa792700e0aa4f0596d5e0010e584f56">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nef204521fec24d699325f3df417ef79f">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>PQ</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
   <rdf:Description rdf:about="http://pt.wikipedia.org/wiki/Camilo_Castelo_Branco">
     <dcterms:description>pt.wikipedia</dcterms:description>
